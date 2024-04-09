@@ -169,6 +169,12 @@ header {
 }
 
 #home{
+	h1{
+		font-weight: 700;
+	}
+	p{
+		color: #000;
+	}
 	.download-cv-button {
 		margin-top: 1rem;
 		display: inline-block;
@@ -187,7 +193,6 @@ header {
 		background-color: #0056b3;
 	}
 	
-	/* Responsive adjustments */
 	@media screen and (max-width: 768px) {
 		.download-cv-button {
 			padding: 8px 16px;
